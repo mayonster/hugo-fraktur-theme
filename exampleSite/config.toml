@@ -2,6 +2,7 @@ baseURL = "https://example.com/"
 languageCode = "en-US"
 theme = "hugo-fraktur-theme"
 title = "Hugo Fraktur Theme"
+customCSS = true
 
 [params]
   # Display options
