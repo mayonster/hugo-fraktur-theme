@@ -1,12 +1,12 @@
 a {
-  color: var(--primary);
+  color: var(--content-a-color);
   text-decoration: underline;
   transition: color 0.2s ease;
   &:hover {
-    color: var(--primary);
+    color: var(--content-a-hover-color);
   }
   &:visited {
-    color: var(--on-surface);
+    color: var(--content-a-visited-color);
   }
 }
 
@@ -15,12 +15,12 @@ h2,
 h3 {
   margin-top: 24px;
   margin-bottom: 16px;
-  color: var(--on-surface);
+  color: var(--content-h3-color);
   font-family: var(--font-family-heading);
   font-weight: 400;
 }
 p {
-  color: var(--on-surface);
+  color: var(--content-p-color);
   font-family: var(--font-family-paragraph);
   font-size: 16px;
   line-height: 1.6;
@@ -113,18 +113,18 @@ ul {
     text-decoration: underline;
     transition: color 0.2s ease;
     &:hover {
-      color: var(--highlight-color);
+      color: var(--content-content-a-hover-color);
     }
   }
   blockquote {
-    border-left: 5px solid var(--highlight-color);
+    border-left: 5px solid var(--content-content-blockquote-border-left-color);
     margin: 30px 0;
     padding: 20px;
   }
   blockquote p {
     font-size: 20px;
     display: inline;
-    color: var(--color-base-text);
+    color: var(--content-content-blockquote-p-color);
   }
   img {
     margin: 24px 0;
@@ -138,7 +138,7 @@ ul {
   }
   figure {
     margin: 32px 0;
-    background: var(--surface-container);
+    background: var(--content-content-figure-background);
     padding: 16px;
     border-radius: var(--border-radius);
     @extend .elevation-1;
@@ -152,11 +152,11 @@ ul {
         margin: 0;
         font-size: 14px;
         font-weight: 500;
-        color: var(--on-surface);
+        color: var(--content-content-figure-caption-h4-color);
       }
       p {
         margin: 4px 0 0 0;
-        color: var(--on-surface-variant);
+        color: var(--content-content-figure-caption-p-color);
         font-size: 14px;
       }
     }
@@ -166,11 +166,11 @@ ul {
     font-family: var(--font-family-monospace);
   }
   code {
-    background: var(--surface-container-low);
+    background: var(--content-content-code-background-color);
     padding: 2px 6px;
     border-radius: var(--border-radius-small);
     font-size: 0.9em;
-    color: var(--on-surface);
+    color: var(--content-content-code-color);
   }
   .highlight {
     pre {
@@ -180,7 +180,7 @@ ul {
       padding: 20px;
       overflow: auto;
       font-family: var(--font-family-monospace);
-      background: var(--surface-container);
+      background: var(--content-content-highlight-pre-background-color);
       @extend .elevation-1;
       border: 1px solid var(--outline);
     }

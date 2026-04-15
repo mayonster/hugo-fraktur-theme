@@ -11,11 +11,47 @@
   --main-menu-mobile-background: #fef7ff;
   --main-menu-mobile-ul-li-a: #1d1b20;
   --main-menu-mobile-hamburger-color: #000000;
-  --main-menu-mobile-hamburger-background-after-color: #000000;
-  --main-menu-mobile-hamburger-active-color: transparent;
-  --main-menu-mobile-hamburger-
+  --main-menu-mobile-hamburger-background-color: transparent;
+  --main-menu-mobile-hamburger-background-after-color: currentColor;
+  --main-menu-mobile-hamburger-active-border-color: transparent;
+  --main-menu-mobile-hamburger-active-color: #ffffff;
+
+  --intro-h1-color: #1d1b20;
+  --intro-h1-strong-color: #000000;
+  --intro-h2-color: #1d1b20;
+  --intro-p-color: #1d1b20;
+
+  --header-border-bottom-color: #cac4d0;
+  --header-logo-color: #000000;
+  --header-logo-hover-color: #ffffff;
+  --header-hamburger-color: #000000;
+  --header-hamburger-background-color: transparent;
+  --header-hamburger-after-color: currentColor;
+  --header-hamburger-active-border-color: transparent;
+  --header-hamburger-active-color: #ffffff;
+
+  --footer-border-top-color: #cac4d0;
+  --footer-social-link-color: #1d1b20;
+  --footer-social-link-hover-color: #ffffff;
+  --footer-social-link-visited-color: #1d1b20;
+
+  --content-a-color: #000000;
+  --content-a-hover-color: #000000;
+  --content-a-visited-color: #1d1b20;
+  --content-h3-color: #1d1b20;
+  --content-p-color: #1d1b20;
+  --content-content-a-hover-color: #000000;
+  --content-content-blockquote-border-left-color: #000000;
+  --content-content-blockquote-p-color: #000000;
+  --content-content-figure-background: #f3edf7;
+  --content-content-figure-caption-h4-color: #1d1b20;
+  --content-content-figure-caption-p-color: #49454f;
+  --content-content-code-background-color: #f7f2fa;
+  --content-content-code-color: #1d1b20;
+  --content-content-highlight-pre-background-color: #f3edf7;
 
 
+  /* Legacy */
   --primary: #000000;
   --on-primary: #ffffff;
   --primary-container: #eaddff;
@@ -48,6 +84,8 @@
 
   --outline: #79747e;
   --outline-variant: #cac4d0;
+
+  /* End of Legacy */
 
   --font-family-heading: 'UnifrakturCook', serif;
   --font-family-paragraph: 'Inter', sans-serif;

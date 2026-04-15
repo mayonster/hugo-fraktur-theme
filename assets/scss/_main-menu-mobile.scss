@@ -91,12 +91,12 @@
   display: block;
   width: 30px;
   height: 20px;
-  background: transparent;
+  background: var(--main-menu-mobile-hamburger-background-color);
   border-top: 2px solid;
   border-bottom: 2px solid;
   font-size: 0;
   transition: all 0.25s ease-in-out;
-  color: var(--highlight-color);
+  color: var(--main-menu-mobile-hamburger-color);
   &:before,
   &:after {
     content: '';
@@ -106,7 +106,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    background: currentColor;
+    background: var(--main-menu-mobile-hamburger-background-after-color);
     transform: translate(-50%, -50%);
     transition: transform 0.25s ease-in-out;
   }
@@ -114,9 +114,9 @@
     opacity: 0.7;
   }
   &.is-active {
-    border-color: transparent;
+    border-color: var(--main-menu-mobile-hamburger-active-border-color);
     z-index: 100;
-    color: var(--base-color);
+    color: var(--main-menu-mobile-hamburger-active-color);
     &:hover {
       opacity: 1;
     }

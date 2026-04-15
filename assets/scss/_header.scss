@@ -5,7 +5,7 @@
   margin-bottom: 24px;
   padding: 16px 0;
   font-size: 16px;
-  border-bottom: 1px solid var(--outline-variant);
+  border-bottom: 1px solid var(--header-border-bottom-color);
   @include breakpoint('small') {
     padding: 24px 0;
     margin-bottom: 32px;
@@ -14,14 +14,14 @@
     font-weight: 500;
     text-transform: lowercase;
     margin-right: 24px;
-    color: var(--on-surface);
+    color: var(--header-logo-color);
     letter-spacing: 0.5px;
     font-family: 'UnifrakturCook', serif;
     font-size: 33px;
     text-decoration: none;
     transition: color 0.2s ease;
     &:hover {
-      color: var(--primary);
+      color: var(--header-logo-hover-color);
       text-decoration: none;
     }
   }
@@ -45,12 +45,12 @@
   display: block;
   width: 30px;
   height: 20px;
-  background: transparent;
+  background: var(--header-logo-hamburger-background-color);
   border-top: 2px solid;
   border-bottom: 2px solid;
   font-size: 0;
   transition: all 0.25s ease-in-out;
-  color: var(--highlight-color);
+  color: var(--header-hamburger-color);
   &:before,
   &:after {
     content: '';
@@ -60,7 +60,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    background: currentColor;
+    background: var(--header-hamburger-after-color);
     transform: translate(-50%, -50%);
     transition: transform 0.25s ease-in-out;
   }
@@ -68,9 +68,9 @@
     opacity: 0.7;
   }
   &.is-active {
-    border-color: transparent;
+    border-color: var(--header-hamburger-active-border-color);
     z-index: 100;
-    color: var(--base-color);
+    color: var(--header-hamburger-active-color);
     &:hover {
       opacity: 1;
     }
