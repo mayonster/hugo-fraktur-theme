@@ -1,6 +1,6 @@
 .menu-main-mobile {
   position: fixed;
-  background: var(--surface);
+  background: var(--main-menu-mobile-background);
   backdrop-filter: blur(10px);
   top: 0;
   left: 0;
@@ -56,7 +56,7 @@
       a {
         display: block;
         position: relative;
-        color: var(--on-surface);
+        color: var(--main-menu-mobile-ul-li-a);
         font-family: var(--font-family-heading);
         font-weight: 700;
         font-size: 2.5rem;
